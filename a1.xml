@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- Include your login name in this opening and also the closing tag as your root node i.e. Take out all text and replace with your login name -->
+<petrovsn>
+
+	<!-- Include your Sheridan Student number in the studentNumber attribute-->
+	<student studentNumber="991466135">
+
+		<!-- Include your full name -->
+		<studentName>Nikola Petrovski</studentName>
+
+		<!-- Include your Program -->
+		<studentProg>Computer Programmer</studentProg>
+
+		<!-- Include your Campus -->
+		<studentCampus>Trafalgar Campus</studentCampus>
+
+		<!-- Include an image filename for an image of you -->
+		<image>me.jpg</image>
+
+		<!-- Include information for 3 multiple choice questions based on quizType -->
+
+		<question quizType="HTML">
+			<quizText>What HTML Form Element atribute specifies a form-handler ?</quizText>
+			<ans>action</ans>
+			<ans>target</ans>
+			<ans>method</ans>
+		</question>
+		<question quizType="CSS">
+			<quizText>What style has the highest priority when there is more than one style specified for an HTML element?</quizText>
+			<ans>Inline style (inside an HTML element)</ans>
+			<ans>External and internal style sheets (in the head section)</ans>
+			<ans>Browser default</ans>
+		</question>
+		<question quizType="jQuery">
+			<quizText>Which of the following methods attaches one or more event handlers for the selected elements?</quizText>
+			<ans>on()</ans>
+			<ans>off()</ans>
+			<ans>attach()</ans>
+		</question>
+	</student>
+</petrovsn>

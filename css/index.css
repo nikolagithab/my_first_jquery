@@ -1,0 +1,30 @@
+/* This is a css file for formating: index.html document */
+
+body {font-family: Helvetica, Arial, sans-serif; background: #FFFF99;}
+    
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 50px 20px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+ /*From the XML file, display the quizText from the XML file with the quizType attribute from the XML file as the heading. Format all quiz question headings (quizType) as bold and each question (quizText) to look
+like a button*/ 
+.hdr {text-indent: 50px; font-size: 1em; font-weight: bold; background: red; color: white; padding: 1px; border-radius: 10px;}
+
+.qtn {font-size: 1em; border-radius: 20px 20px 0px 0px; background: rgba(100%, 0%, 0%, .75); color: white; margin: 0; padding: 10px; }
+	
+.awr {font-size: 1em; border-radius: 0px 0px 20px 20px; background: rgba(100%, 0%, 0%, .50); color: white; margin: 0; padding: 10px; }
+/*NOTE: The ordered list must be generated/built from the XML; do not include A. B. C.etc. in the answer section of your XML*/
+li { list-style-position: inside; padding-left: 20px; padding-right: 10px; list-style-type: upper-alpha; }
+	
+

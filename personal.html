@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<!-- Nikola Petrovski 991466135
+Assignment #1 Personal File 
+This assignment creates a site that includes my personal info and a 3 question
+quiz on HTML, CSS and jQuery. jQuery is used to complete this assignment. All data is pulled from the XML populated file. This template is used for the
+assignment. XML template is VALIDATED AFTER UPDATING. Image(s) are referenced in the XML file and are pulled from XML file and not hard coded. My image(s) are in a separate folder on my mobile site. It is unique including information in the XML and the layout. All information from the XML file for my main page are displayed to fit in the mobile space (according to grading specifics...Chrome's Mobile Browser Emulator using the ++Mobile Portrait (375x667) option). This site is designed as a mobile site.-->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment # 1 - Personal Information</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/myscript1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/personal.css">
+</head>
+<body>
+	<!-- This .html includes its own myscript file (ex. myscript1.js) and
+	also includes an .ajax call to load the XML file into placeholders for
+	personal data -->
+	<h1 id="myName"></h1>
+	<h2 id="myProg"></h2>
+	<h3 id="myCamp"></h3>
+	<img src="images/me.jpg" alt="Smiley face">
+	<!-- include navigation back to the main page -->
+	<p><a href="index.html">jQuery Assignment</a></p>
+</body>
+</html>
